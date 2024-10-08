@@ -1,0 +1,22 @@
+    body {
+        width: 100vh;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 20% 70% 10%;
+        background-color: beige;
+        margin: auto;
+    }
+header{
+    height: 100%;
+    width: 100%;
+    grid-row: 1;
+    text-align: center;
+}
+main{
+    height: 70%;
+    width: 100%;
+}
+footer{
+    height: 10%;
+    width: 100%;
+}
