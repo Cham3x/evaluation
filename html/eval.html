@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="../css/output.css">
 </head>
 <body class="bg-amber-100">
-    <header class="grid grid-rows-3 grid-flow-col gap-4 px-4 py-4 leading-10 h-1/6">
-        <article id="logo" class=" w-full  rounded-xl row-span-3 contain-size" >
-            <img class="h-full w-full bg-amber-100 shadow-[#66b15b] shadow-lg rounded-xl " src="../images/logo1.png" alt=""></article>
-            <h1 class="p-4 w-full  rounded-xl row-span-2 col-span-2 text-8xl text-center font-black self-center underline shadow-lg shadow-[#66b15b] ">ECO EATS</h1>
+    <header class="grid grid-rows-3 grid-flow-col gap-4 px-4 py-4 leading-10 ">
+        <article id="logo" class=" w-full h-full rounded-xl row-span-3" >
+            <img class="h-64 w-auto bg-amber-100 shadow-[#66b15b] shadow-lg rounded-xl" src="../images/logo1.png" alt=""></article>
+            <h1 class="p-4 w-full h-full  rounded-xl row-span-2 col-span-2 text-8xl text-center font-black self-center underline shadow-lg shadow-[#66b15b] ">ECO EATS</h1>
             <nav class="p-4 w-full rounded-xl col-span-2 text-center place-content-center space-x-5 bg-[#66b15b] shadow-inner"  >
-                <a href="#propos"class="font-bold rounded-lg text-xl uppercase w-40 h-16 bg-[#374151] text-[#ffffff] justify-center p-3">à propos</a>
+                <a href="#propos" class="font-bold rounded-lg text-xl uppercase w-40 h-16 bg-[#374151] text-[#ffffff] justify-center p-3">à propos</a>
                 <a href="#menu" class="font-bold rounded-lg text-xl uppercase w-40 h-16 bg-[#374151] text-[#ffffff] justify-center p-3">Menu</a>
                 <a href="#marche" class="font-bold rounded-lg text-xl uppercase w-40 h-16 bg-[#374151] text-[#ffffff] justify-center p-3">Comment ça marche</a>
                 <a href="#contact" class="font-bold rounded-lg text-xl uppercase w-40 h-16 bg-[#374151] text-[#ffffff] justify-center p-3" >contact</a>
@@ -20,37 +20,64 @@
     </header>
     <main class="grid grid-cols-1 xl:grid-cols-1 gap-4 px-0 py-0 h-4/6">
         <section id="propos" class="w-s h-auto bg-[#66b15b] rounded-xl text-center">
-            <h2 class=" uppercase text-6xl underline font-black" >à propos</h2>
-            <p class="font-bold">Bonjour, nous sommes une startup de livraison de repas bio. <br>
+            <h2 class=" uppercase text-5xl underline font-black" >à propos</h2>
+            <p class="font-bold text-2xl">Bonjour, nous sommes une startup de livraison de repas bio. <br>
                Nous mettons tous en oeuvre pour respecter l'ecologie, que ce soit dans la préparation de nos plats, <br>
                ou même dans nos moyens de livraison. Nous èsperons vous convaincre par notre approche eco-responsable
               de livraison de plats à domicile.<br> Nous proposons du simple plat à emporter à des prestations style traiteur. <br>
             Pour plus de details sur le processus de commande voir <a href="#marche">comment ça marche</a> </p>
         </section>
-        <section id="menu"  class="w-s h-full bg-[#66b15b] rounded-xl grid grid-cols-2 xl:grid-cols-2 gap-4 grid-rows-3 p-2 ">
-            <h2 class="w-full text-center col-span-2 text-6xl uppercase underline font-black self-center">Menu</h2>
-            <article class="w-full h-auto bg-amber-100 rounded-xl col-start-1 row-start-2">plat 1</article>
-            <article class="w-full h-auto bg-amber-100 rounded-xl col-start-2 row-start-2">plat 2</article>
-            <article class="w-full h-auto bg-amber-100 rounded-xl col-start-1 row-start-3">plat 3</article>
-            <article class="w-full h-auto bg-amber-100 rounded-xl col-start-2 row-start-3">plat 4</article>
+        <section id="menu"  class="border-8 border-[#66b15b] rounded-xl grid grid-cols-2 xl:grid-cols-2 gap-4 grid-rows-3 p-2 ">
+            <h2 class="w-full text-center col-span-2 text-5xl uppercase underline font-black self-center">Menu</h2>
+            <article class="w-full h-auto border-8 border-[#66b15b] bg-amber-100 rounded-xl col-start-1 row-start-2 grid grid-rows-3 grid-flow-col gap-4 px-4 py-4 leading-10">
+                <section class=" w-full bg-fuchsia-900 rounded-xl row-span-3 "><img class="w-full h-full" src="../images/plat1.jfif" alt=""></section>
+                <section class=" p-4 w-full bg-fuchsia-800 rounded-xl col-span-2"><h3 class="uppercase text-lg"></h3></section>
+                <section class=" p-4 w-full bg-fuchsia-700 rounded-xl row-span-2 col-span-2">&nbsp;</section>
+            </article>
+            <article class="w-full h-auto border-8 border-[#66b15b] bg-amber-100 rounded-xl col-start-2 row-start-2 grid grid-rows-3 grid-flow-col gap-4 px-4 py-4 leading-10">
+                <section class="w-full bg-fuchsia-900 rounded-xl row-span-3"><img class="w-full h-full" src="../images/plat2.jfif" alt=""></section>
+                <section class=" p-4 w-full bg-fuchsia-800 rounded-xl col-span-2"></section>
+                <section class="p-4 w-full bg-fuchsia-700 rounded-xl row-span-2 col-span-2">&nbsp;</section>
+            </article>
+            <article class="w-full h-auto border-8 border-[#66b15b] bg-amber-100 rounded-xl col-start-1 row-start-3 grid grid-rows-3 grid-flow-col gap-4 px-4 py-4 leading-10">
+                <section class="w-full bg-fuchsia-900 rounded-xl row-span-3"><img class="w-full h-full" src="../images/plat3.jfif" alt=""></section>
+                <section class="p-4 w-full bg-fuchsia-800 rounded-xl col-span-2"></section>
+                <section class="p-4 w-full bg-fuchsia-700 rounded-xl row-span-2 col-span-2">&nbsp;</section>
+            </article>
+            <article class="w-full h-auto border-8 border-[#66b15b] bg-amber-100 rounded-xl col-start-2 row-start-3 grid grid-rows-3 grid-flow-col gap-4 px-4 py-4 leading-10">
+                <section class="w-full bg-fuchsia-900 rounded-xl row-span-3"><img class="w-full h-full" src="../images/plat4.jfif" alt=""></section>
+                <section class="p-4 w-full bg-fuchsia-800 rounded-xl col-span-2"></section>
+                <section class="p-4 w-full bg-fuchsia-700 rounded-xl row-span-2 col-span-2">&nbsp;</section>
+            </article>
         </section>
-        <section id="marche" class="w-s h-full bg-gray-300 rounded-xl">
-            <h2>Comment ça marche</h2>
-            <p>Pour pouvoir passer commande sur notre site vous avez deux possibilité, dépandant du choix que vous souhaiter. <br>
-               Pour un (ou plusieurs) menu(s) simple vous trouverez dans la section <a href="#menu">Menu</a>, une liste comportant les plats que nous <br>
+        <section id="marche" class="w-s h-full bg-[#66b15b] rounded-xl text-center">
+            <h2 class="uppercase underline font-black text-5xl">Comment ça marche</h2>
+            <p class="text-2xl font-bold">Pour pouvoir passer commande sur notre site vous avez deux possibilité, dépandant du choix que vous souhaiter. <br>
+               Pour un (ou plusieurs) menu(s) simple vous trouverez dans la section <a class="text-white" href="#menu">Menu</a>, une liste comportant les plats que nous <br>
                proposons ainsi que leur tarifs vous aurez juste a constituer votre panier. Une fois votre commande terminer vous <br>
                recevrez un mail comprenant: la confirmation de votre commande, la facture liée à votre commande et les details concernant <br>
-               votre livraison. Pour toute demande concernant un événement nous vous proposons, <a href="#contact">un formulaire de contact</a> pour toute <br>
-               demande de devis avec tous les élément necessaire pour l'effectuer. </p>         
+               votre livraison. Réferez vous à la section <a class="text-white" href="#contact">contact</a> pour toute questions ou demande de devis. </p>         
         </section>
-        <form action="traitement.php" method="post" id="contact" class="w-s h-full bg-gray-300 rounded-xl">
+        <form action="#" method="post" id="contact" class="w-s h-full bg-gray-300 rounded-xl justify-self-center">
             <h2>Contact</h2>
-            <fieldset>
-                <h3>Questions</h3>
-            </fieldset>
-            <fieldset>
-                <h3>Devis</h3>
-            </fieldset>
+                <label for="nom">Nom :</label><br>
+                <input type="text" id="nom" name="nom" required><br><br>
+        
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="telephone">Téléphone :</label><br>
+                <input type="tel" id="telephone" name="telephone" required><br><br>
+        
+                <label for="service">Service demandé :</label><br>
+                <select id="service" name="service" required>
+                    <option value="Questions">Questions</option>
+                    <option value="Devis">Devis</option>
+                </select><br><br>
+        
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <button type="submit" class="font-bold rounded-lg text-lg  w-48 h-16 bg-[#374151] text-[#ffffff] justify-center">Envoyer</button>
         </form>
     </main>
     <footer>
