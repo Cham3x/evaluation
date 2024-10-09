@@ -31,23 +31,23 @@
             <h2 class="w-full text-center col-span-2 text-5xl uppercase underline font-black self-center">Menu</h2>
             <article class="w-full h-auto border-8 border-[#66b15b] bg-amber-100 rounded-xl col-start-1 row-start-2 grid grid-rows-3 grid-flow-col gap-4 px-4 py-4 leading-10">
                 <section class=" w-full bg-fuchsia-900 rounded-xl row-span-3 "><img class="w-full h-full" src="../images/plat1.jfif" alt=""></section>
-                <section class=" p-4 w-full bg-fuchsia-800 rounded-xl col-span-2"><h3 class="uppercase text-lg"></h3></section>
-                <section class=" p-4 w-full bg-fuchsia-700 rounded-xl row-span-2 col-span-2">&nbsp;</section>
+                <section class=" w-full bg-[#66b15b] rounded-xl col-span-2"><h3 class="uppercase text-lg font-bold">Salade repas</h3></section>
+                <section class="w-full bg-[#66b15b] rounded-xl row-span-2 col-span-2"><p class="font-bold text-xl"> une salade composé</p> <br> <p class="font-bold text-2xl">10€</p></section>
             </article>
             <article class="w-full h-auto border-8 border-[#66b15b] bg-amber-100 rounded-xl col-start-2 row-start-2 grid grid-rows-3 grid-flow-col gap-4 px-4 py-4 leading-10">
                 <section class="w-full bg-fuchsia-900 rounded-xl row-span-3"><img class="w-full h-full" src="../images/plat2.jfif" alt=""></section>
-                <section class=" p-4 w-full bg-fuchsia-800 rounded-xl col-span-2"></section>
-                <section class="p-4 w-full bg-fuchsia-700 rounded-xl row-span-2 col-span-2">&nbsp;</section>
+                <section class=" p-4 w-full bg-[#66b15b] rounded-xl col-span-2"> <h3 class="uppercase text-lg font-bold">burger boeuf</h3> </section>
+                <section class="p-4 w-full bg-[#66b15b] rounded-xl row-span-2 col-span-2">&nbsp;</section>
             </article>
             <article class="w-full h-auto border-8 border-[#66b15b] bg-amber-100 rounded-xl col-start-1 row-start-3 grid grid-rows-3 grid-flow-col gap-4 px-4 py-4 leading-10">
                 <section class="w-full bg-fuchsia-900 rounded-xl row-span-3"><img class="w-full h-full" src="../images/plat3.jfif" alt=""></section>
-                <section class="p-4 w-full bg-fuchsia-800 rounded-xl col-span-2"></section>
-                <section class="p-4 w-full bg-fuchsia-700 rounded-xl row-span-2 col-span-2">&nbsp;</section>
+                <section class="p-4 w-full bg-[#66b15b] rounded-xl col-span-2"> <h3 class="uppercase text-lg font-bold">Salade de fruits</h3> </section>
+                <section class="p-4 w-full bg-[#66b15b] rounded-xl row-span-2 col-span-2">&nbsp;</section>
             </article>
             <article class="w-full h-auto border-8 border-[#66b15b] bg-amber-100 rounded-xl col-start-2 row-start-3 grid grid-rows-3 grid-flow-col gap-4 px-4 py-4 leading-10">
                 <section class="w-full bg-fuchsia-900 rounded-xl row-span-3"><img class="w-full h-full" src="../images/plat4.jfif" alt=""></section>
-                <section class="p-4 w-full bg-fuchsia-800 rounded-xl col-span-2"></section>
-                <section class="p-4 w-full bg-fuchsia-700 rounded-xl row-span-2 col-span-2">&nbsp;</section>
+                <section class="p-4 w-full bg-[#66b15b] rounded-xl col-span-2"> <h3 class="uppercase text-lg font-bold">Salade de fruits</h3></section>
+                <section class="p-4 w-full bg-[#66b15b] rounded-xl row-span-2 col-span-2">&nbsp;</section>
             </article>
         </section>
         <section id="marche" class="w-s h-full bg-[#66b15b] rounded-xl text-center">
@@ -58,32 +58,60 @@
                recevrez un mail comprenant: la confirmation de votre commande, la facture liée à votre commande et les details concernant <br>
                votre livraison. Réferez vous à la section <a class="text-white" href="#contact">contact</a> pour toute questions ou demande de devis. </p>         
         </section>
-        <form action="#" method="post" id="contact" class="w-s h-full bg-gray-300 rounded-xl justify-self-center">
-            <h2>Contact</h2>
-                <label for="nom">Nom :</label><br>
-                <input type="text" id="nom" name="nom" required><br><br>
+        <form action="#" method="post" id="contact" class="w-s h-full border-[#66b15b] border-8 rounded-xl content-center text-center p-4">
+            <h2 class="text-center text-5xl font-black uppercase underline">Contact</h2><br>
+                <label for="nom" class="font-bold text-2xl underline">Nom :</label><br><br>
+                <input type="text" id="nom" name="nom" required class="px-3 py-2.5 text-lg font-bold rounded-lg border focus:outline focus:outline-2 focus:outline-offset-2 bg-[#ffffff] text-[#444444] focus:outline-[#aaaaaa] border-[#cccccc]"><br><br>
         
-                <label for="email">Email :</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                <label for="email" class="font-bold text-2xl underline">Email :</label><br><br>
+                <input type="email" id="email" name="email" required class="px-3 py-2.5 text-lg font-bold rounded-lg border focus:outline focus:outline-2 focus:outline-offset-2 bg-[#ffffff] text-[#444444] focus:outline-[#aaaaaa] border-[#cccccc]"><br><br>
         
-                <label for="telephone">Téléphone :</label><br>
-                <input type="tel" id="telephone" name="telephone" required><br><br>
+                <label for="telephone" class="font-bold text-2xl underline">Téléphone :</label><br><br>
+                <input type="tel" id="telephone" name="telephone" required class="px-3 py-2.5 text-lg font-bold rounded-lg border focus:outline focus:outline-2 focus:outline-offset-2 bg-[#ffffff] text-[#444444] focus:outline-[#aaaaaa] border-[#cccccc]"><br><br>
         
-                <label for="service">Service demandé :</label><br>
-                <select id="service" name="service" required>
+                <label for="service" class="font-bold text-2xl underline">Service demandé :</label><br><br>
+                <select id="service" name="service" required class="px-3 py-2.5  text-lg font-bold rounded-lg border focus:outline focus:outline-2 focus:outline-offset-2 bg-[#ffffff] text-[#444444] focus:outline-[#aaaaaa] border-[#cccccc]  ">
+                    <option value=""></option>
                     <option value="Questions">Questions</option>
                     <option value="Devis">Devis</option>
                 </select><br><br>
         
-                <label for="message">Message :</label><br>
+                <label for="message" class="font-bold text-2xl underline">Message :</label><br><br>
                 <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
                 <button type="submit" class="font-bold rounded-lg text-lg  w-48 h-16 bg-[#374151] text-[#ffffff] justify-center">Envoyer</button>
         </form>
     </main>
-    <footer>
-    <article id="secondaire">Pages secondaire</article>
-    <article id="mention"> mention légales</article>
-    <article id="reseau"> réseau sociaux</article>
-</footer>
+    <footer class="flex flex-col w-full h-fit bg-[#66b15b] text-[#e5e7eb] px-36 py-5 my-4">
+        <section class="flex flex-row">
+            <section class="flex flex-col gap-2 justify-center w-[35%] w-[35%]">
+                <section class="flex items-center w-full gap-4">
+                    <img src="../images/logo2.png" alt="">
+                </section>
+            </section>
+            <section class="flex flex-row w-[65%] justify-end gap-16 text-nowrap">
+                <section class="grid grid-cols-3 gap-48">
+                    <section class="flex flex-col gap-2">
+                        <section class="font-bold uppercase text-black pb-3 underline">Pages secondaire</section>
+                         <a href="#xxx" class="hover:underline">Partenaires</a>  
+                         <a href="#xxx" class="hover:underline">Docs</a>    
+                         <a href="#xxx" class="hover:underline">Securité</a>
+                    </section>
+                    <section class="flex flex-col gap-2">
+                        <section class="font-bold uppercase text-black pb-3 underline">réseau sociaux</section>
+                           <a href="#xxx" class="hover:underline">linkdin</a> 
+                           <a href="#xxx" class="hover:underline">Instagram</a> 
+                           <a href="#xxx" class="hover:underline">Facebook</a>  
+                           <a href="#xxx" class="hover:underline">Twitter</a>
+                    </section>
+                    <section class="flex flex-col gap-2">
+                        <section class="font-bold uppercase text-black pb-3 underline">Mentions légale</section>
+                         <a href="#xxx" class="hover:underline">Imprint</a>
+                         <a href="#xxx" class="hover:underline">Privacy Policy</a>  
+                         <a href="#xxx" class="hover:underline">Terms of Use</a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </footer>
 </body>
 </html>
