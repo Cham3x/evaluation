@@ -6,7 +6,57 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/output.css">
 </head>
-<body>
-    
+<body class="bg-amber-100">
+    <header class="grid grid-rows-3 grid-flow-col gap-4 px-4 py-4 leading-10 h-1/6">
+        <article id="logo" class=" w-full  rounded-xl row-span-3 contain-size" >
+            <img class="h-full w-full bg-amber-100 shadow-[#66b15b] shadow-lg rounded-xl " src="../images/logo1.png" alt=""></article>
+            <h1 class="p-4 w-full  rounded-xl row-span-2 col-span-2 text-8xl text-center font-black self-center underline shadow-lg shadow-[#66b15b] ">ECO EATS</h1>
+            <nav class="p-4 w-full rounded-xl col-span-2 text-center place-content-center space-x-5 bg-[#66b15b] shadow-inner"  >
+                <a href="#propos"class="font-bold rounded-lg text-xl uppercase w-40 h-16 bg-[#374151] text-[#ffffff] justify-center p-3">à propos</a>
+                <a href="#menu" class="font-bold rounded-lg text-xl uppercase w-40 h-16 bg-[#374151] text-[#ffffff] justify-center p-3">Menu</a>
+                <a href="#marche" class="font-bold rounded-lg text-xl uppercase w-40 h-16 bg-[#374151] text-[#ffffff] justify-center p-3">Comment ça marche</a>
+                <a href="#contact" class="font-bold rounded-lg text-xl uppercase w-40 h-16 bg-[#374151] text-[#ffffff] justify-center p-3" >contact</a>
+            </nav>
+    </header>
+    <main class="grid grid-cols-1 xl:grid-cols-1 gap-4 px-0 py-0 h-4/6">
+        <section id="propos" class="w-s h-auto bg-[#66b15b] rounded-xl text-center">
+            <h2 class=" uppercase text-6xl underline font-black" >à propos</h2>
+            <p class="font-bold">Bonjour, nous sommes une startup de livraison de repas bio. <br>
+               Nous mettons tous en oeuvre pour respecter l'ecologie, que ce soit dans la préparation de nos plats, <br>
+               ou même dans nos moyens de livraison. Nous èsperons vous convaincre par notre approche eco-responsable
+              de livraison de plats à domicile.<br> Nous proposons du simple plat à emporter à des prestations style traiteur. <br>
+            Pour plus de details sur le processus de commande voir <a href="#marche">comment ça marche</a> </p>
+        </section>
+        <section id="menu"  class="w-s h-full bg-[#66b15b] rounded-xl grid grid-cols-2 xl:grid-cols-2 gap-4 grid-rows-3 p-2 ">
+            <h2 class="w-full text-center col-span-2 text-6xl uppercase underline font-black self-center">Menu</h2>
+            <article class="w-full h-auto bg-amber-100 rounded-xl col-start-1 row-start-2">plat 1</article>
+            <article class="w-full h-auto bg-amber-100 rounded-xl col-start-2 row-start-2">plat 2</article>
+            <article class="w-full h-auto bg-amber-100 rounded-xl col-start-1 row-start-3">plat 3</article>
+            <article class="w-full h-auto bg-amber-100 rounded-xl col-start-2 row-start-3">plat 4</article>
+        </section>
+        <section id="marche" class="w-s h-full bg-gray-300 rounded-xl">
+            <h2>Comment ça marche</h2>
+            <p>Pour pouvoir passer commande sur notre site vous avez deux possibilité, dépandant du choix que vous souhaiter. <br>
+               Pour un (ou plusieurs) menu(s) simple vous trouverez dans la section <a href="#menu">Menu</a>, une liste comportant les plats que nous <br>
+               proposons ainsi que leur tarifs vous aurez juste a constituer votre panier. Une fois votre commande terminer vous <br>
+               recevrez un mail comprenant: la confirmation de votre commande, la facture liée à votre commande et les details concernant <br>
+               votre livraison. Pour toute demande concernant un événement nous vous proposons, <a href="#contact">un formulaire de contact</a> pour toute <br>
+               demande de devis avec tous les élément necessaire pour l'effectuer. </p>         
+        </section>
+        <form action="traitement.php" method="post" id="contact" class="w-s h-full bg-gray-300 rounded-xl">
+            <h2>Contact</h2>
+            <fieldset>
+                <h3>Questions</h3>
+            </fieldset>
+            <fieldset>
+                <h3>Devis</h3>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+    <article id="secondaire">Pages secondaire</article>
+    <article id="mention"> mention légales</article>
+    <article id="reseau"> réseau sociaux</article>
+</footer>
 </body>
 </html>
